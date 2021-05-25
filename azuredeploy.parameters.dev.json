@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "ipaddress": {
+        "value": "xxx.xxx.xxx.xxx"
+      },
+      "appServicePlanName": {
+        "value": "xxxxx"
+      },
+      "kind": {
+        "value": "windows"
+      },
+      "tier": {
+        "value": "standard"
+      },
+      "skuName": {
+        "value": "s1"
+      },
+      "webappsName": {
+        "value": "xxxxx"
+      },
+      "webAppsKind": {
+        "value": "app"
+      }
+    }
+}
+  
