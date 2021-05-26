@@ -1,7 +1,7 @@
 name: CD
 
 env:
-  AZURE_WEBAPP_NAME: xxxxx
+  AZURE_WEBAPP_NAME: azstudywebapps0526
   AZURE_WEBAPP_PACKAGE_PATH: "."
 
 on:
