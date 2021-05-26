@@ -117,8 +117,13 @@ AZURE_WEBAPP_NAME: xxxxx -> WEBAPP_NAME
 
 ### Set PublishSettings as secret
 
-Download PublishSetting file from Azure Portal.
+#### Download PublishSetting file from Azure Portal.
+![publish-profile](./images/publish-profile.png)
 
-Create new secret `AZURE_WEBAPP_PUBLISH_PROFILE` and paste your PublishSetting.
+#### Create new secret `AZURE_WEBAPP_PUBLISH_PROFILE` and paste your PublishSetting.
+![secret](./images/secret-setting1.png)
+* Name:AZURE_WEBAPP_PUBLISH_PROFILE </br>Value: from ```<WEBAPPS_NAME>.PublishSettings```
+![secret](./images/secret-setting2.png)
+![secret](./images/secret-setting3.png)
 
-![secret](./images/secrets.png)
+
