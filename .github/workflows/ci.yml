@@ -2,9 +2,21 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - 'aplha/**'
+      - 'beta/**'
+      - 'demo/**'
   pull_request:
-    branches: [ main ]
+      # refs/heads にマッチするパターンのシーケンス
+    branches:
+      - 'main'
+      - 'releases/**'
+    # refs/heads にマッチするパターンのシーケンス
+    tags:
+      - 'v*.*'
+    paths-ignore:
+      - 'public/**'
+      - 'docs/**'
 
   workflow_dispatch:
 
