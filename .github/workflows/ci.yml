@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - 'aplha/**'
+      - 'alpha/**'
       - 'beta/**'
       - 'demo/**'
   pull_request:
